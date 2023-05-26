@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="414.0" prefWidth="738.0" style="-fx-background-color: #C3B1E1;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="135.0" fitWidth="135.0" layoutX="41.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/Saved%20Pictures/milktea.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="137.0" fitWidth="135.0" layoutX="50.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/Saved%20Pictures/milk.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="143.0" fitWidth="142.0" layoutX="196.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/Saved%20Pictures/coffee.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="135.0" fitWidth="135.0" layoutX="366.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/Saved%20Pictures/sprite.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="143.0" fitWidth="119.0" layoutX="366.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/Saved%20Pictures/milkshake.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="milkteaButton" layoutX="149.0" layoutY="84.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: #BDB5D5;" text="MILKTEA" textFill="#da1919" />
+      <Button fx:id="milkButton" layoutX="83.0" layoutY="336.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: #BDB5D5;" text="MILK" />
+      <Button fx:id="spriteButton" layoutX="337.0" layoutY="84.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: #BDB5D5;" text="SPRITE" />
+      <Button fx:id="milkshakeButton" layoutX="380.0" layoutY="336.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: #BDB5D5;" text="MILKSHAKE" />
+      <Button fx:id="coffeeButton" layoutX="233.0" layoutY="255.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="30.0" prefWidth="69.0" style="-fx-background-color: #BDB5D5; -fx-font-style: &quot;Lucida Calligraphy&quot;;" text="COFFEE">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="12.0" />
+         </font>
+      </Button>
+      <TextField layoutX="-7.0" prefHeight="26.0" prefWidth="745.0" style="-fx-background-color: #E0B0FF;" />
+      <ImageView fitHeight="295.0" fitWidth="271.0" layoutX="476.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/Saved%20Pictures/anya.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="518.0" layoutY="194.0" prefHeight="25.0" prefWidth="413.0" rotate="90.0" style="-fx-background-color: #F8C8DC;" />
+      <TextField layoutY="387.0" prefHeight="26.0" prefWidth="738.0" style="-fx-background-color: #E0B0FF;" />
+      <TextField layoutX="-193.0" layoutY="192.0" prefHeight="30.0" prefWidth="415.0" rotate="90.0" style="-fx-background-color: #F8C8DC;" />
+      <Text layoutX="545.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MY" textAlignment="CENTER" wrappingWidth="110.45454406738281">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="30.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" blue="0.5666666626930237" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill></Text>
+      <Text layoutX="498.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FAVORITE" textAlignment="CENTER" wrappingWidth="205.0">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="30.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill></Text>
+      <Text layoutX="517.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DRINKS" textAlignment="CENTER" wrappingWidth="167.0">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="30.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.6682098507881165" green="0.004629629664123058" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill></Text>
+   </children>
+</AnchorPane>
