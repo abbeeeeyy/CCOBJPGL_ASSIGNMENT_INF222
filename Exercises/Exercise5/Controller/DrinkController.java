@@ -43,7 +43,7 @@ public class DrinkController {
         Button sourceButton = (Button) event.getSource();
         Alert alert = new Alert(AlertType.INFORMATION);
 
-        if (sourceButton.equals(spriteButton)) {
+        if (sourceButton == spriteButton) {
             alert.setContentText("Sprite is " + sprite2.getRating() + " and it's " + sprite2.getTaste());
         }
 
